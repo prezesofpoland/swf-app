@@ -6,6 +6,15 @@
     <title>Flash Games (Ruffle + React)</title>
     <link rel="stylesheet" href="/styles.css">
     <!-- Ruffle selfhosted build from CDN -->
+    <script>
+  window.RufflePlayer = window.RufflePlayer || {};
+  window.RufflePlayer.config = {
+    logLevel: "debug",
+    autoplay: "on",
+    unmuteOverlay: "hidden",
+    warnOnUnsupportedContent: true
+  };
+</script>
     <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
     <script>
       window.RufflePlayer = window.RufflePlayer || {};

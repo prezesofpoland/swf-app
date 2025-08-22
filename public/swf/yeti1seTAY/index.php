@@ -1,0 +1,1 @@
+ok=1&status=1&verified=1&PHP_score=0&USERNAME=guest&username=guest&user=guest&game=yeti1seTAY&gname=yeti1seTAY
